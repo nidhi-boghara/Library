@@ -113,23 +113,23 @@ app_license = "MIT"
 # Scheduled Tasks
 # ---------------
 
-# scheduler_events = {
-#	"all": [
-#		"library_app.tasks.all"
-#	],
-#	"daily": [
-#		"library_app.tasks.daily"
-#	],
-#	"hourly": [
-#		"library_app.tasks.hourly"
-#	],
-#	"weekly": [
-#		"library_app.tasks.weekly"
-#	],
-#	"monthly": [
-#		"library_app.tasks.monthly"
-#	],
-# }
+scheduler_events = {
+	# "all": [
+	# 	"library_app.tasks.all"
+	# ],
+	# "daily": [
+	# 	"library_app.tasks.daily"
+	# ],
+	# "hourly": [
+	# 	"library_app.tasks.hourly"
+	# ],
+	# "weekly": [
+	# 	"library_app.tasks.weekly"
+	# ],
+	"monthly": [
+		"library_app.tasks.monthly"
+	],
+}
 
 # Testing
 # -------
@@ -199,3 +199,8 @@ app_license = "MIT"
 # auth_hooks = [
 #	"library_app.auth.validate"
 # ]
+# }
+
+website_route_rules =[
+	{"from_route": "/article/<article_name>","to_route":"article"},
+]

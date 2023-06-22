@@ -1,0 +1,19 @@
+{
+ "content": null,
+ "creation": "2023-06-21 18:01:46.789565",
+ "docstatus": 0,
+ "doctype": "Page",
+ "idx": 0,
+ "modified": "2023-06-21 18:48:53.936225",
+ "modified_by": "Administrator",
+ "module": "library_app",
+ "name": "library-dashboard",
+ "owner": "Administrator",
+ "page_name": "library-dashboard",
+ "roles": [],
+ "script": null,
+ "standard": "Yes",
+ "style": null,
+ "system_page": 0,
+ "title": "Library dashboard"
+}

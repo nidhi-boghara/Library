@@ -1,0 +1,5 @@
+[pre_model_sync]
+
+
+[post_model_sync]
+library_app.library_app.doctype.library_member1.patches.compute_age
