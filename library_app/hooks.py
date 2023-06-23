@@ -204,3 +204,4 @@ scheduler_events = {
 website_route_rules =[
 	{"from_route": "/article/<article_name>","to_route":"article"},
 ]
+
